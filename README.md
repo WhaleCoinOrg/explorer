@@ -1,14 +1,14 @@
-# ETCExplorer
+# WhaleExplorer
 
-<b>Live Version: [etherhub.io](http://etherhub.io)</b>
+<b>Live Version: [explorer](http://explorer.whalecoin.org)</b>
 
-Follow the project progress at: [ETC Block Explorer Development](https://github.com/ethereumproject/explorer)
+Follow the project progress at: [WhaleCoion Block Explorer Development](https://github.com/WhaleCoinOrg/explorer)
 
 ## Local installation
 
 Clone the repo
 
-`git clone https://github.com/ethereumproject/explorer`
+`git clone https://github.com/WhaleCoinOrg/explorer`
 
 Download [Nodejs and npm](https://docs.npmjs.com/getting-started/installing-node "Nodejs install") if you don't have them
 
@@ -55,7 +55,7 @@ Basic settings:
 
 ```gethPort```    Your node API RPC port.
 
-```startBlock```  This is the start block of the blockchain, should always be 0 if you want to sync the whole ETC blockchain.
+```startBlock```  This is the start block of the blockchain, should always be 0 if you want to sync the whole WhaleCoion blockchain.
 
 ```endBlock```    This is usually the 'latest'/'newest' block in the blockchain, this value gets updated automatically, and will be used to patch missing blocks if the whole app goes down.
 
